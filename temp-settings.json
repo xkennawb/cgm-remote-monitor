@@ -1,0 +1,23 @@
+﻿{
+    "deployment_branch":  "master",
+    "SCM_TRACE_LEVEL":  "Verbose",
+    "SCM_COMMAND_IDLE_TIMEOUT":  "60",
+    "SCM_LOGSTREAM_TIMEOUT":  "7200",
+    "SCM_BUILD_ARGS":  "",
+    "WEBSITE_AUTH_AUTO_AAD":  "False",
+    "SCM_USE_LIBGIT2SHARP_REPOSITORY":  "0",
+    "DISPLAY_UNITS":  "mmol/L",
+    "BRIDGE_PASSWORD":  "Ca20carm",
+    "API_SECRET":  "carmenkennaway4181",
+    "REMOTEDEBUGGINGVERSION":  "16.0.32106.67",
+    "BRIDGE_USER_NAME":  "carmenkennaway",
+    "ScmType":  "LocalGit",
+    "FUNCTIONS_RUNTIME_SCALE_MONITORING_ENABLED":  "0",
+    "MONGODB_URI":  "mongodb://carmenkennaway:gNPBFWhM4Xzj58QGKC56hBLphN6suaEGsNgMiHxF2oQtUTMTZiulnxd1e25okEL6Nl3wK87yCSl2ACDbxuijew%3D%3D@carmenkennaway.mongo.cosmos.azure.com:10255/?ssl=true\u0026retrywrites=false\u0026socketTimeoutMS=120000\u0026appName=@carmenkennaway@",
+    "WEBSITE_AUTH_LOGOUT_PATH":  "/.auth/logout",
+    "BRIDGE_SERVER":  "EU",
+    "WEBSITE_AUTH_ENABLED":  "False",
+    "ENABLE":  "careportal basal dbsize rawbg iob maker cob bwp cage iage sage boluscalc pushover treatmentnotify loop pump profile food openaps bage alexa override speech cors bridge",
+    "WEBSITE_SITE_NAME":  "carmensugar",
+    "WEBSITE_NODE_DEFAULT_VERSION":  "~18"
+}
