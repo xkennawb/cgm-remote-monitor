@@ -39,6 +39,7 @@ jobs:
         run: npm run-script test-ci
       - name: Send Coverage
         run: npm run-script coverage
+        continue-on-error: true
 
   publish_dev:
     name: Publish dev branch to Docker Hub
