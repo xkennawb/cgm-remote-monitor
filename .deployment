@@ -1,2 +1,2 @@
 [config]
-command = bash bin/azure-deploy.sh
+SCM_DO_BUILD_DURING_DEPLOYMENT=true
