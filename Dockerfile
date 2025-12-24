@@ -8,10 +8,9 @@ WORKDIR /opt/app
 RUN chown -R node:node /opt/app
 USER node
 
-RUN npm install && \
-  npm run postinstall && \
-  npm run env && \
-  npm audit fix
+RUN npm install --legacy-peer-deps && \
+  mkdir -p tmp && \
+  npm run-script generate-keys
 
 EXPOSE 1337
 
